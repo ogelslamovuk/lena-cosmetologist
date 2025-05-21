@@ -1,0 +1,73 @@
+index.html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Елена — косметолог во Владикавказе</title>
+  <meta name="description" content="Профессиональная косметология во Владикавказе: чистки, пилинги, инъекции, массажи, уходы. Запишитесь к Елене и позаботьтесь о своей коже!">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800">
+  <header class="bg-pink-100 p-6 text-center">
+    <h1 class="text-3xl font-bold">Елена — косметолог во Владикавказе</h1>
+    <p class="mt-2">Чистки, пилинги, инъекции, массажи, уходы</p>
+    <a href="#contacts" class="inline-block mt-4 bg-pink-500 text-white px-6 py-2 rounded">Записаться</a>
+  </header>
+  <section class="p-6" id="about">
+    <h2 class="text-2xl font-bold mb-4">Обо мне</h2>
+    <div class="flex flex-col md:flex-row items-center">
+      <div class="md:w-1/2 mb-4 md:mb-0">
+        <img src="photo-lena.jpg" alt="Фото Елены" class="rounded shadow">
+      </div>
+      <div class="md:w-1/2 md:pl-8">
+        <p>Сертифицированный косметолог с индивидуальным подходом. В моей работе важны комфорт, результат и честность. Уютный салон в центре Владикавказа. Работаю с лучшими средствами, уделяю внимание каждому клиенту.</p>
+      </div>
+    </div>
+  </section>
+  <section class="bg-gray-100 p-6" id="services">
+    <h2 class="text-2xl font-bold mb-4">Услуги</h2>
+    <p class="mb-4 text-gray-600">Скоро появится подробный прайс-лист. Здесь будут представлены все процедуры: чистки, пилинги, массажи, инъекции и многое другое.</p>
+    <div class="grid md:grid-cols-3 gap-4">
+      <div class="bg-white p-4 shadow rounded">Уход за лицом</div>
+      <div class="bg-white p-4 shadow rounded">Анти-эйдж процедуры</div>
+      <div class="bg-white p-4 shadow rounded">Инъекции красоты</div>
+    </div>
+  </section>
+  <section class="p-6" id="results">
+    <h2 class="text-2xl font-bold mb-4">Результаты</h2>
+    <p class="mb-4 text-gray-600">Галерея до/после появится позже. Следите за обновлениями!</p>
+    <div class="grid md:grid-cols-3 gap-4">
+      <div class="bg-gray-200 h-48 flex items-center justify-center">Фото 1</div>
+      <div class="bg-gray-200 h-48 flex items-center justify-center">Фото 2</div>
+      <div class="bg-gray-200 h-48 flex items-center justify-center">Фото 3</div>
+    </div>
+  </section>
+  <section class="bg-gray-100 p-6" id="certificates">
+    <h2 class="text-2xl font-bold mb-4">Сертификаты и дипломы</h2>
+    <div class="grid md:grid-cols-3 gap-4">
+      <div class="bg-white h-48 shadow flex items-center justify-center">Фото диплома</div>
+      <div class="bg-white h-48 shadow flex items-center justify-center">Фото сертификата</div>
+    </div>
+  </section>
+  <section class="p-6" id="reviews">
+    <h2 class="text-2xl font-bold mb-4">Отзывы</h2>
+    <p class="text-gray-600">Отзывы появятся позже.</p>
+  </section>
+  <section class="bg-pink-50 p-6" id="contacts">
+    <h2 class="text-2xl font-bold mb-4">Контакты</h2>
+    <ul class="space-y-2">
+      <li>Телеграм: <a href="#" class="text-pink-600">@yourusername</a></li>
+      <li>WhatsApp: <a href="#" class="text-pink-600">+7 999 000-00-00</a></li>
+      <li>Instagram: <a href="#" class="text-pink-600">@yourinsta</a></li>
+    </ul>
+    <a href="tel:+79990000000" class="inline-block mt-4 bg-pink-500 text-white px-6 py-2 rounded">Позвонить</a>
+    <div class="mt-6">
+      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aexample&source=constructor" width="100%" height="300" frameborder="0"></iframe>
+    </div>
+  </section>
+  <footer class="text-center text-sm text-gray-500 p-4">
+    © 2025 Елена, косметолог во Владикавказе. Все права защищены.
+  </footer>
+</body>
+</html>
